@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Epilogue:500,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+body {
+    width: 1440px;
+    height: 100%;
+    font-family: "Epilogue";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #686868;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1359px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 0 67px 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+ul a {
+    color: #686868;
+    text-decoration: none;
+}
+
+
+button {
+    background-color: transparent;
+    color: #686868;
+    cursor: pointer;
+}
+
+.btn-log {
+    margin-right: 40px;
+}
+
+.btn {
+    min-width: 104px;
+    border: 1.5px solid #686868;
+    border-radius: 14px;
+    padding: 13px 0;
+}
+
+section {
+    display: flex;
+    gap: 1px;
+}
+
+.img {
+    width: 480px;
+    height: 640px;
+}
+
+.remote {
+    max-width: 788px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 540px;
+    align-self: flex-end;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -1.11111px;
+    color: #151515;
+    margin-bottom: 48px;
+}
+
+p {
+    max-width: 445px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 51px;
+}
+
+.black-btn {
+    min-width: 163px;
+    background: #151515;
+    border-radius: 15px;
+    padding: 15px 0 13px 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.25px;
+    color: #FAFAFA;
+    margin-bottom: 108px;
+}
+
+.logotips {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.databiz {
+    max-width: 113px;
+}
+.union {
+    max-width: 73px;
+    max-height: 36px;
+}
+.meet {
+    max-width: 89px;
+}
+.maker {
+    max-width: 82px;
+}
